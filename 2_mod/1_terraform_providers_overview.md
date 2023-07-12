@@ -78,7 +78,7 @@ We have four kinds of operators to specify a Provider's version.
 - `=` Allows specifying an exact version number e.g., `4.0` or `5.5.0`
 - `!=` Allows excluding an exact version number
 - `>` `>=` `<` `<=` Allows for versions where the comparison is true e.g., `>=5.0` allows for any version `5.0` or newer
-- `~>` Allows the *rightmost* version component to increment e.g., `~> 5.0` allows for `5.1` or `5.2` but not `5.1.1`
+- `~>` Allows the *rightmost* version component to increment e.g., `~> 5.0` allows for `5.1.0` `5.1.1` all the way up to `5.9.9` but never `6.0` or higher
 
 If Provider version constraints are used, you can view them as shown below once running the `terraform init` command.
 
