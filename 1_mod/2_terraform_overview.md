@@ -48,7 +48,7 @@ This section summarizes some of the commands you'll use regularly when working w
 
 `terraform apply` - This applies the code once you type the keyword "yes", when prompted. The infrastructure will begin being built or modified.
 
-`terraform apply` - This destroys the infrastructure defined once you type the keyword "yes", when prompted.
+`terraform destroy` - This destroys the infrastructure defined once you type the keyword "yes", when prompted.
 
 
 ## Deploying an AWS S3 Bucket via Terraform
@@ -68,4 +68,4 @@ You're now ready to deploy your first infrastructure via Terraform! Once you've 
 ## Tearing Down Infrastructure via Terraform
 Great job making it this far! Now, the final thing we should do is delete the S3 bucket, but don't worry, you now have the code to create it again if you want!
 
-Run this command to delete the bucket: ```terraform delete```
+Run this command to delete the bucket: `terraform destroy`
