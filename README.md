@@ -5,11 +5,11 @@ I plan to continue adding content overtime and will also be creating follow alon
 
 | Module | Topic | YouTube Link |
 | ------ | ----- | ------------ |
-| Mod 0  | Pre-requisites and Getting Started | Coming Soon
-| Mod 1  | Infrastructure-as-Code and Terraform Overview. Building our first resource! | Coming Soon
-| Mod 2  | Understanding Terraform Providers | Coming Soon
-| Mod 3  | Writing Better Terraform and Terraform File Types | Coming Soon
-| Mod 4  | Understanding and Working with Terraform Local and Remote State Files | Coming Soon
+| Mod 0  | Pre-requisites and Getting Started | -
+| Mod 1  | Infrastructure-as-Code and Terraform Overview. Building our first resource! | [Video](https://www.youtube.com/watch?v=kWLvssDUJCs&t=600s)
+| Mod 2  | Understanding Terraform Providers | [Video](https://www.youtube.com/watch?v=JZ50aaudmZQ)
+| Mod 3  | Writing Better Terraform and Terraform File Types | [Video](https://www.youtube.com/watch?v=mMRrN6iiSXE)
+| Mod 4  | Understanding and Working with Terraform Local and Remote State Files | [Video](https://www.youtube.com/watch?v=TfCwYALdSUo)
 
 ***Future Topics***
 - Importing existing AWS resources
